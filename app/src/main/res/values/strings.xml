@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">CareCompanion</string>
+
+    // Sign in page
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="log_in">Log in</string>
+    <string name="register">Are you a new user? Register</string>
+
+    // Sign up page
+    <string name="create_an_account">Create an Account</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="dd_mm_yyyy">dd/mm/yyyy</string>
+    <string name="janedoe_gmail_com">janedoe@gmail.com</string>
+    <string name="re_enter_password">Re-Enter Password</string>
+    <string name="yes_i_agree_to_the">Yes, I agree to the</string>
+    <string name="terms_conditions"><![CDATA[Terms & Conditions]]></string>
+
+
 </resources>
