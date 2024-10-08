@@ -18,5 +18,50 @@
     <string name="yes_i_agree_to_the">Yes, I agree to the</string>
     <string name="terms_conditions"><![CDATA[Terms & Conditions]]></string>
 
+    // Homepage
+    <string name="slogan">ageing, gracefully…​</string>
+    <string name="medical_id">Medical Id</string>
+    <string name="calendar">Calendar</string>
+    <string name="settings">Settings</string>
+    <string name="help_bot">Help Bot</string>
+
+    // Create medical id
+    <string name="please_provide_your_medical_information_in_the_columns_below">Please provide your medical information in the columns below.</string>
+    <string name="medical_information">Medical Information</string>
+    <string name="medical_conditions">Medical conditions</string>
+    <string name="blood_type">Blood type</string>
+    <string name="allergies">Allergies</string>
+    <string name="current_medication">Current medication</string>
+    <string name="weight">Weight</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="address">Address</string>
+    <string name="organ_donor">Organ donor</string>
+    <string name="height">Height</string>
+    <string name="next">Next</string>
+       <string name="sign_up">Sign up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="verify_password">Verify password</string>
+    <string name="enter_your_height">Enter your height</string>
+    <string name="enter_your_address">Enter your address</string>
+    <string name="list_your_medical_conditions">List your medical conditions</string>
+    <string name="list_your_allergies">List your allergies</string>
+    <string name="list_any_medication_you_take">List any medication you take</string>
+    <string name="enter_your_weight">Enter your weight</string>
+
+    <string-array name="blood_array">
+        <item>Tap to select blood type</item>
+        <item>Type A</item>
+        <item>Type B</item>
+        <item>Type AB</item>
+        <item>Type O</item>
+    </string-array>
+
+    <string-array name="organ_array">
+        <item>Tap to set status</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
 
 </resources>

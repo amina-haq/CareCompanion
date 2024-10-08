@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/profile"
+                    android:title="Profile" />
+                <item
+                    android:id="@+id/nav_settings"
+                    android:icon="@drawable/settings"
+                    android:title="Settings" />
+            </group>
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/homepage"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/navigation"
+            android:title="Navigation" />
+        <item
+            android:id="@+id/nav_medicalid"
+            android:icon="@drawable/medic"
+            android:title="@string/medical_id" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/calendar"
+            android:title="Calendar" />
+        <item
+            android:id="@+id/nav_healthtips"
+            android:icon="@drawable/healthtips"
+            android:title="Health Tips" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/communicate"
+                android:title="Feedback" />
+        </menu>
+    </item>
+</menu>
