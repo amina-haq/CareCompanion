@@ -136,7 +136,7 @@
                 android:textSize="15sp" />
         </RelativeLayout>
 
-        <!--suppress AndroidDomInspection -->
+
         <Button
             android:id="@+id/btnLogin"
             android:layout_width="65dp"
@@ -145,8 +145,7 @@
             android:layout_marginTop="15dp"
             android:layout_marginEnd="30dp"
             android:onClick="launchMedical"
-            android:background="@drawable/btn_arrow"
-            app:backgroundTint="transparent"/>
+            android:background="@drawable/btn_arrow" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -38,7 +38,7 @@
     <string name="organ_donor">Organ donor</string>
     <string name="height">Height</string>
     <string name="next">Next</string>
-       <string name="sign_up">Sign up</string>
+    <string name="sign_up">Sign up</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="verify_password">Verify password</string>
@@ -62,6 +62,10 @@
         <item>Yes</item>
         <item>No</item>
     </string-array>
+
+    // Calendar
+    <string name="add_reminder">New Reminder</string>
+    <string name="no_reminders">No Reminders</string>
 
 
 </resources>
