@@ -1,9 +1,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.CareCompanion" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.CareCompanion" parent="Theme.MaterialComponents.DayNight.NoActionBar">">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.CareCompanion" parent="Base.Theme.CareCompanion" />
+    <style name="Theme.CareCompanion" parent="Theme.AppCompat.Light.NoActionBar" />
+    <style name="Theme.CareCompanion.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.CareCompanion.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.CareCompanion.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
