@@ -12,7 +12,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        tools:ignore="MissingConstraints">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
         <ImageView
             android:id="@+id/imageView"
@@ -27,8 +32,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="40dp"
-            android:layout_marginEnd="40dp"
             android:layout_marginTop="40dp"
+            android:layout_marginEnd="40dp"
             android:text="Welcome\nBack !"
             android:textColor="@color/dark_blue"
             android:textSize="45sp"
@@ -38,45 +43,45 @@
             android:id="@+id/txtEmailAddress"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:ems="10"
             android:layout_marginStart="35dp"
+            android:layout_marginTop="35dp"
             android:layout_marginEnd="35dp"
             android:background="@drawable/edittext_bg"
-            android:hint="@string/enter_your_email"
-            android:textColorHint="#1D2D40"
-            android:inputType="textEmailAddress"
-            android:textSize="15sp"
-            android:textColor="#707070"
-            android:padding="12dp"
-            android:layout_marginTop="35dp"
             android:drawableStart="@drawable/email"
-            android:drawablePadding="10dp"/>
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="@string/enter_your_email"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:textColor="#707070"
+            android:textColorHint="#1D2D40"
+            android:textSize="15sp" />
 
         <EditText
             android:id="@+id/txtPassword"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:ems="10"
             android:layout_marginStart="35dp"
+            android:layout_marginTop="20dp"
             android:layout_marginEnd="35dp"
             android:background="@drawable/edittext_bg"
-            android:hint="@string/enter_your_password"
-            android:textColorHint="#1D2D40"
-            android:inputType="textPassword"
-            android:textSize="15sp"
-            android:textColor="#707070"
-            android:padding="12dp"
-            android:layout_marginTop="20dp"
             android:drawableStart="@drawable/lock_logo"
-            android:drawablePadding="10dp"/>
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="@string/enter_your_password"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:textColor="#707070"
+            android:textColorHint="#1D2D40"
+            android:textSize="15sp" />
 
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="15dp"
-            android:layout_marginTop="13dp"
             android:layout_marginStart="28dp"
-            android:layout_marginEnd="30dp">
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="30dp"
+            android:padding="15dp">
 
             <CheckBox
                 android:layout_width="wrap_content"
@@ -84,7 +89,7 @@
                 android:layout_centerVertical="true"
                 android:alpha="0.7"
                 android:text="@string/remember_me"
-                android:textSize="15sp"/>
+                android:textSize="15sp" />
 
             <TextView
                 android:id="@+id/txtView5"
@@ -92,8 +97,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
-                android:textSize="15sp"
-                android:text="@string/forgot_password"/>
+                android:text="@string/forgot_password"
+                android:textSize="15sp" />
         </RelativeLayout>
 
 
@@ -101,28 +106,28 @@
             android:id="@+id/btnLogin"
             android:layout_width="255dp"
             android:layout_height="55dp"
+            android:layout_gravity="center"
             android:layout_marginTop="45dp"
             android:background="@drawable/btn_bg"
+            android:onClick="launchHomepage"
             android:text="@string/log_in"
-            android:layout_gravity="center"
             android:textAllCaps="false"
             android:textColor="#FBF9F9"
-            android:textSize="27sp"
-            android:onClick="launchHomepage" />
+            android:textSize="27sp" />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="45dp"
-            app:backgroundTint="#F2F2F2"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:onClick="launchSignUpPage"
+            android:outlineProvider="none"
             android:text="@string/register"
             android:textAllCaps="false"
             android:textColor="@color/dark_blue"
             android:textSize="18sp"
-            android:layout_gravity="center"
-            android:layout_marginTop="15dp"
-            android:outlineProvider="none"
-            android:onClick="launchSignUpPage"/>
+            app:backgroundTint="#F2F2F2" />
 
     </LinearLayout>
 

@@ -95,7 +95,7 @@
             android:textColor="@color/dark_blue"
             android:textSize="20sp"
             android:textStyle="bold" />
-<!--        android:drawableStart="@drawable/notification_logo"-->
+        <!--        android:drawableStart="@drawable/notification_logo"-->
         <View
             android:layout_width="385dp"
             android:layout_height="1dp"
@@ -114,7 +114,7 @@
             android:textColor="@color/dark_blue"
             android:textSize="20sp"
             android:textStyle="bold" />
-<!--        android:drawableStart="@drawable/eye_logo"-->
+        <!--        android:drawableStart="@drawable/eye_logo"-->
 
         <View
             android:layout_width="385dp"
@@ -134,7 +134,7 @@
             android:textColor="@color/dark_blue"
             android:textSize="20sp"
             android:textStyle="bold" />
-<!--        android:drawableStart="@drawable/lock_log"-->
+        <!--        android:drawableStart="@drawable/lock_log"-->
 
         <View
             android:layout_width="385dp"
@@ -154,7 +154,7 @@
             android:textColor="@color/dark_blue"
             android:textSize="20sp"
             android:textStyle="bold" />
-<!--        android:drawableStart="@drawable/headset_logo"-->
+        <!--        android:drawableStart="@drawable/headset_logo"-->
 
         <View
             android:layout_width="385dp"
@@ -174,7 +174,7 @@
             android:textColor="@color/dark_blue"
             android:textSize="20sp"
             android:textStyle="bold" />
-<!--        android:drawableStart="@drawable/help_circle_logo"-->
+        <!--        android:drawableStart="@drawable/help_circle_logo"-->
 
         <View
             android:layout_width="385dp"

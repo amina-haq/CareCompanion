@@ -6,13 +6,14 @@
     android:layout_height="200dp"
     android:orientation="vertical"
     android:background="@color/dark_blue"
-    android:gravity="bottom"
     android:paddingStart="5dp"
+    android:paddingTop="50dp"
     tools:ignore="RtlSymmetry">
 
     <ImageView
         android:layout_width="85dp"
         android:layout_height="85dp"
+        android:layout_marginStart="10dp"
         android:src="@drawable/profile_circle_logo" />
 
     <TextView
