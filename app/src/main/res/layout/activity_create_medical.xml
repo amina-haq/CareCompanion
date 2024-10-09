@@ -8,7 +8,6 @@
     android:background="#BEC9D3"
     tools:context=".Create_medical">
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -317,9 +316,9 @@
         <Button
             android:id="@+id/btnLogin"
             android:layout_width="190dp"
-            android:layout_height="50dp"
+            android:layout_height="55dp"
             android:layout_gravity="center"
-            android:layout_marginTop="45dp"
+            android:layout_marginTop="50dp"
             android:background="@drawable/btn_bg"
             app:backgroundTint="@color/dark_blue"
             android:text="@string/sign_up"

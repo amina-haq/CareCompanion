@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".Homepage"
     android:background="#BEC9D3">
 
     <RelativeLayout
@@ -360,12 +360,12 @@
             android:layout_height="30dp"
             android:layout_marginTop="15dp"
             android:background="@drawable/medical_id_bg"
-            android:drawableStart="@drawable/donation_logo"
             android:drawablePadding="20dp"
             android:hint="@string/organ_donor"
             android:textColor="@color/dark_blue"
             android:textSize="17sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:drawableStartCompat="@drawable/donation_logo" />
 
         <TextView
             android:layout_width="wrap_content"
