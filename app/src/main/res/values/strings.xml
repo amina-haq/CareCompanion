@@ -67,5 +67,18 @@
     <string name="add_reminder">New Reminder</string>
     <string name="no_reminders">No Reminders</string>
 
+    // Medical Id
+    <string name="name">Jane Doe</string>
+    <string name="location">Huddersfield, England</string>
+    <string name="emergency_contact">UK Emergency Contact</string>
+    <string name="emergency_no">999</string>
+    <string name="my_emergency_contact">My Emergency Contact</string>
+    <string name="DOB">25/11/1965</string>
+    <string name="medical_condition">Diabetes (Hypoglycemia)</string>
+    <string name="current_medications"> Insulin, EpiPen - incase of allergic reaction.</string>
+    <string name="allergy">Penicillin (severe skin rash)</string>
+    <string name="my_blood_type">AB+</string>
+
+
 
 </resources>
