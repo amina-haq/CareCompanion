@@ -67,7 +67,7 @@
             android:textColor="#707070"
             android:padding="12dp"
             android:layout_marginTop="20dp"
-            android:drawableStart="@drawable/lock"
+            android:drawableStart="@drawable/lock_logo"
             android:drawablePadding="10dp"/>
 
         <RelativeLayout
