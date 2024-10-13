@@ -33,10 +33,10 @@
             android:id="@+id/nav_calendar"
             android:icon="@drawable/calendar"
             android:title="Calendar" />
-        <item
-            android:id="@+id/nav_healthtips"
-            android:icon="@drawable/healthtips"
-            android:title="Health Tips" />
+<!--        <item-->
+<!--            android:id="@+id/nav_healthtips"-->
+<!--            android:icon="@drawable/healthtips"-->
+<!--            android:title="Health Tips" />-->
     </group>
 
     <item android:title="Communicate">

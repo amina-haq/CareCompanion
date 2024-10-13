@@ -314,7 +314,7 @@
             android:background="#000000" />
 
         <Button
-            android:id="@+id/btnLogin"
+            android:id="@+id/Signup"
             android:layout_width="190dp"
             android:layout_height="55dp"
             android:layout_gravity="center"

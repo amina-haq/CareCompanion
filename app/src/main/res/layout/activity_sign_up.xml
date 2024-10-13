@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F2F2F2"
-    tools:context=".Homepage">
+    tools:context=".SignUp">
 
 
     <LinearLayout
@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="380dp"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/top_background_SignUp"/>
+            app:srcCompat="@drawable/top_background_signup"/>
 
         <TextView
             android:id="@+id/txtView2"
@@ -67,7 +67,7 @@
 
 
         <EditText
-            android:id="@+id/txtEmailAddress"
+            android:id="@+id/emailAddress"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginStart="40dp"
@@ -82,7 +82,7 @@
             android:textSize="18sp" />
 
         <EditText
-            android:id="@+id/txtPassword"
+            android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginStart="40dp"
@@ -138,7 +138,7 @@
 
 
         <Button
-            android:id="@+id/btnLogin"
+            android:id="@+id/btnSignUp"
             android:layout_width="65dp"
             android:layout_height="65dp"
             android:layout_gravity="end"
