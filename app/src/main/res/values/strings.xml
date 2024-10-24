@@ -9,11 +9,12 @@
     <string name="log_in">Log in</string>
     <string name="question">Are you a new user?</string>
     <string name="register">Register</string>
+    <string name="google_login">SignIn with Google</string>
 
 
     // Sign up page
     <string name="create_an_account">Create an Account</string>
-    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_name">Enter Full Name</string>
     <string name="dd_mm_yyyy">dd/mm/yyyy</string>
     <string name="janedoe_gmail_com">janedoe@gmail.com</string>
     <string name="re_enter_password">Re-Enter Password</string>
@@ -80,6 +81,7 @@
     <string name="current_medications"> Insulin, EpiPen - incase of allergic reaction.</string>
     <string name="allergy">Penicillin (severe skin rash)</string>
     <string name="my_blood_type">AB+</string>
+    <string name="web_client_id" />
 
 
 </resources>

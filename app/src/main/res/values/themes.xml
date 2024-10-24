@@ -13,4 +13,5 @@
     <style name="Theme.CareCompanion.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.CareCompanion.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 </resources>
