@@ -23,7 +23,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class SignUp extends AppCompatActivity {
 
     private FirebaseAuth auth;
-    private EditText signupEmail, signupPassword;
+    private EditText signupEmail, signupPassword, re_enterPassword, enterName, dateOfBirth;
     private Button signupButton;
 
     @Override
@@ -35,6 +35,9 @@ public class SignUp extends AppCompatActivity {
         auth = FirebaseAuth.getInstance();
         signupEmail = findViewById(R.id.emailAddress);
         signupPassword = findViewById(R.id.password);
+        re_enterPassword = findViewById(R.id.txtRepassword);
+        enterName = findViewById(R.id.txtName);
+        dateOfBirth = findViewById(R.id.txtDOB);
         signupButton = findViewById(R.id.btnSignUp);
 
         signupButton.setOnClickListener(new View.OnClickListener() {
@@ -42,12 +45,24 @@ public class SignUp extends AppCompatActivity {
             public void onClick(View v) {
                 String user = signupEmail.getText().toString().trim();
                 String pass = signupPassword.getText().toString().trim();
+                String re_pass = re_enterPassword.getText().toString().trim();
+                String name = enterName.getText().toString().trim();
+                String DOB = dateOfBirth.getText().toString().trim();
 
                 if (user.isEmpty()){
                     signupEmail.setError("Email cannot be empty");
                 }
-                if (user.isEmpty()){
+                if (pass.isEmpty()){
                     signupPassword.setError("Password cannot be empty");
+                }
+                if (re_pass.isEmpty()){
+                    re_enterPassword.setError("Password cannot be empty");
+                }
+                if (name.isEmpty()){
+                    enterName.setError("Section left empty");
+                }
+                if (DOB.isEmpty()){
+                    dateOfBirth.setError("Section left empty");
                 }
                 else{
                     auth.createUserWithEmailAndPassword(user, pass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {

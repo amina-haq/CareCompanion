@@ -10,7 +10,7 @@
                     android:title="Profile" />
                 <item
                     android:id="@+id/nav_settings"
-                    android:icon="@drawable/settings"
+                    android:icon="@drawable/settings_logo"
                     android:title="Settings" />
             </group>
         </menu>
@@ -23,15 +23,15 @@
             android:title="Home" />
         <item
             android:id="@+id/nav_map"
-            android:icon="@drawable/navigation"
+            android:icon="@drawable/navigation_logo"
             android:title="Navigation" />
         <item
             android:id="@+id/nav_medicalid"
-            android:icon="@drawable/medic"
+            android:icon="@drawable/medicine_logo"
             android:title="@string/medical_id" />
         <item
             android:id="@+id/nav_calendar"
-            android:icon="@drawable/calendar"
+            android:icon="@drawable/calendar_24"
             android:title="Calendar" />
 <!--        <item-->
 <!--            android:id="@+id/nav_healthtips"-->
@@ -47,4 +47,13 @@
                 android:title="Feedback" />
         </menu>
     </item>
+
+    <item
+        android:id="@+id/menulogout"
+        android:title="Logout" />
+
+    <item
+        android:id="@+id/delete"
+        android:title="Delete User" />
+
 </menu>
