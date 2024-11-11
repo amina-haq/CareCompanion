@@ -10,10 +10,13 @@ CareCompanion is an Android application designed to support and assist individua
 
 ## Features
 
-Secure Medical ID and Profile Storage: Store personal and medical information safely using Firebase, protected with stringent security rules to ensure only authorised access.
-Full Data Management: Supports Create, Read, Update, and Delete (CRUD) operations for users to manage their healthcare records conveniently within the app.
-Secure Authentication: Includes email-password and Google sign-in options for a secure login experience, with account recovery and deletion features for enhanced user control.
-Easy Onboarding: Provides a straightforward, user-friendly onboarding process, making setup quick and simple for users of all backgrounds.
+**Secure Medical ID and Profile Storage:** Store personal and medical information safely using Firebase, protected with stringent security rules to ensure only authorised access.
+
+**Full Data Management:** Supports Create, Read, Update, and Delete (CRUD) operations for users to manage their healthcare records conveniently within the app.
+
+**Secure Authentication:** Includes email-password and Google sign-in options for a secure login experience, with account recovery and deletion features for enhanced user control.
+
+**Easy Onboarding:** Provides a straightforward, user-friendly onboarding process, making setup quick and simple for users of all backgrounds.
 
 
 ## Installation
