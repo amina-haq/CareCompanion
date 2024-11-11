@@ -81,9 +81,3 @@ _Storage: Firebase Storage_
 ## Contributing
 
 Contributions are welcome! Please see [CONTRIBUTING.md](https://github.com/amina-haq/CareCompanion/blob/master/CONTRIBUTING.md) for guidelines on how to get involved.
-
-
-## License
-
-
-This project is licensed under the GNU General Public License v3.0 License - see the [LICENSE.md](https://github.com/a-aima0/CareCompanion/blob/master/LICENSE) file for details
