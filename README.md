@@ -1,6 +1,8 @@
 # Care Companion
 
-CareCompanion is an Android application designed to support and assist members of the community, particularly those who require help managing healthcare concerns. CareCompanion aims to address common challenges users may face, such as offering a secure place to store medical ID data and personal profiles.
+
+CareCompanion is an Android application designed to support and assist individuals, particularly those who need help managing healthcare information. The app aims to provide a secure, organised way to store and access essential medical data, helping users manage their health more effectively and ensuring privacy through robust security features.
+
 
 
 
@@ -8,80 +10,74 @@ CareCompanion is an Android application designed to support and assist members o
 
 ## Features
 
-- Medical ID and personal profile data storage using Firebase database with strict security rules
-- CRUD Operations: Fully supports Create, Read, Update, and Delete operations for managing user data.
-- Secure authentication: Supports both email-password and Google authentication for secure login.
-- Access recovery and deletion: forgot password/ email and account deletion functions 
-- Onboarding Process: Easy setup of accounts with an intuitive onboarding process.
+Secure Medical ID and Profile Storage: Store personal and medical information safely using Firebase, protected with stringent security rules to ensure only authorised access.
+Full Data Management: Supports Create, Read, Update, and Delete (CRUD) operations for users to manage their healthcare records conveniently within the app.
+Secure Authentication: Includes email-password and Google sign-in options for a secure login experience, with account recovery and deletion features for enhanced user control.
+Easy Onboarding: Provides a straightforward, user-friendly onboarding process, making setup quick and simple for users of all backgrounds.
 
 
 ## Installation
 
 To get started with CareCompanion, follow these steps:
-1. Clone the repository
+
+**1) Clone the repository:**
 
 ```bash
 git clone https://github.com/yourusername/CareCompanion.git
 cd CareCompanion
 ```
-2. Open the project in Android Studio:
+**2) Open the project in Android Studio:**
 
-Launch Android Studio and select "Open an existing project".
-Navigate to the CareCompanion directory and click "OK".
+Launch Android Studio and select "Open an existing project". Navigate to the CareCompanion directory and click "OK".
 
-3. Build the project:
+**3) Build the project:**
 
-Ensure you have the latest version of Android Studio and SDK installed.
-Build the project to resolve any dependencies.
+Ensure you have the latest version of Android Studio and the Android SDK installed. Build the project to resolve dependencies.
 
-4. Run the app on an emulator or physical device:
+**4) Run the app on an emulator or physical device:**
 
-Connect your Android device or start an emulator.
-Click the "Run" button in Android Studio.
-    
+Connect your Android device or start an emulator, then click the "Run" button in Android Studio.
+
+
+
 ## Screenshots
 
-| <img src="screenshotImages/Screenshot_20240819_110225.jpg" width="280" height="580"> | <img src="screenshotImages/Screenshot_20240819_110418.jpg" width="280" height="580"> | <img src="screenshotImages/Screenshot_20240819_110650.jpg" width="280" height="580"> |
+| <img src=""> | <img src=""> | <img src=""> |
 |------------------------------------------|------------------------------------------|------------------------------------------|
 | **Login**                           | **Registration**                           | **Reset Password Alert**                           |
 
-| <img src="screenshotImages/Screenshot_20240819_110724.jpg" width="280" height="580"> | <img src="screenshotImages/Screenshot_20240819_110940.jpg" width="280" height="580"> | <img src="screenshotImages/Screenshot_20240819_111115.jpg" width="280" height="580"> |
+| <img src=""> | <img src=""> | <img src=""> |
 |------------------------------------------|------------------------------------------|------------------------------------------|
 | **Reset Password Page**                           | **Home Page**                           | **Personal Profile**                           |
 
-| <img src="screenshotImages/Screenshot_20240819_111129.jpg" width="280" height="580"> | <img src="screenshotImages/Screenshot_20240819_111535.jpg" width="280" height="720"> |<img src="screenshotImages/Screenshot_20240819_111545.jpg" width="280" height="580">  |
+| <img src=""> | <img src=""> | <img src=""> |
 |------------------------------------------|------------------------------------------|------------------------------------------|
 | **Edit Personal Profile**                           |   **Medical ID Page**                          | **Settings**                          |
 
 
-
-
-
-
 ## Tech Stack
 
-**Client:** 
+**Client**
 
-Language: Java
+_Language: Java_
 
-UI Design: XML
+_UI Design: XML__
 
-Authentication: Email-password authentication, Google authentication
+_Authentication: Email-password and Google authentication_
 
-Development Environment: Android Studio
+_Development Environment: Android Studio_
 
-**Server:** 
+**Server**
 
-Backend: Firebase
+_Backend: Firebase_
 
-Database: Firestore
+_Database: Firestore, configured with advanced security rules to ensure data privacy_
 
-Storage: Firebase Storage
+_Storage: Firebase Storage_
+
 ## Contributing
 
-Contributions are always welcome!
-
-See [CONTRIBUTING.md](https://github.com/a-aima0/CareCompanion/blob/master/CONTRIBUTING.md) for ways to get started.
+Contributions are welcome! Please see [CONTRIBUTING.md](https://github.com/amina-haq/CareCompanion/blob/master/CONTRIBUTING.md) for guidelines on how to get involved.
 
 
 ## License
