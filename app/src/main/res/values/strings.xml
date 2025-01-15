@@ -10,6 +10,7 @@
     <string name="question">Are you a new user?</string>
     <string name="register">Register</string>
     <string name="google_login">SignIn with Google</string>
+    <string name="web_client_id">438431947620-ecpi41uk3dhhf4mv8g8q993k3vs49ltm.apps.googleusercontent.com</string>
 
 
     // Sign up page
@@ -81,7 +82,6 @@
     <string name="current_medications"> Insulin, EpiPen - incase of allergic reaction.</string>
     <string name="allergy">Penicillin (severe skin rash)</string>
     <string name="my_blood_type">AB+</string>
-    <string name="web_client_id" />
 
 
 </resources>
