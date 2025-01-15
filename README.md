@@ -45,17 +45,17 @@ Connect your Android device or start an emulator, then click the "Run" button in
 
 ## Screenshots
 
-| <img src="display_img/screenshot_login.png" width="240" height="460"> | <img src="display_img/screenshot_signup.png" width="240" height="460"> | <img src=""> |
+| <img src="display_img/screenshot_login.png" width="240" height="460"> | <img src="display_img/screenshot_signup.png" width="235" height="460"> | <img src=""> |
 |------------------------------------------|------------------------------------------|------------------------------------------|
-| **Login**                           | **Registration**                           | **Reset Password Alert**                           |
+| **Login Page**                           | **Registration Page**                           | **Reseting password**                           |
 
 | <img src=""> | <img src=""> | <img src=""> |
 |------------------------------------------|------------------------------------------|------------------------------------------|
-| **Reset Password Page**                           | **Home Page**                           | **Personal Profile**                           |
+| **Home page**                           | **Medical ID**                           | **Settings Page**                           |
 
-| <img src=""> | <img src=""> | <img src=""> |
-|------------------------------------------|------------------------------------------|------------------------------------------|
-| **Edit Personal Profile**                           |   **Medical ID Page**                          | **Settings**                          |
+| <img src=""> | <img src=""> |
+|------------------------------------------|------------------------------------------|
+| **Calendar**                           |   **Chat Bot**                          |
 
 
 ## Tech Stack
