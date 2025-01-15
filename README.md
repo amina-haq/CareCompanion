@@ -45,7 +45,7 @@ Connect your Android device or start an emulator, then click the "Run" button in
 
 ## Screenshots
 
-| <img src="display_img/screenshot_login.png" width="240" height="455"> | <img src="display_img/screenshot_signup.png" width="240" height="470"> | <img src=""> |
+| <img src="display_img/screenshot_login.png" width="240" height="460"> | <img src="display_img/screenshot_signup.png" width="240" height="460"> | <img src=""> |
 |------------------------------------------|------------------------------------------|------------------------------------------|
 | **Login**                           | **Registration**                           | **Reset Password Alert**                           |
 
