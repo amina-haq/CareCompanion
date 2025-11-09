@@ -1,7 +1,7 @@
 # Care Companion
 
 
-CareCompanion is an Android application designed to support and assist individuals, particularly those who need help managing healthcare information. The app aims to provide a secure, organised way to store and access essential medical data, helping users manage their health more effectively and ensuring privacy through robust security features.
+Android application designed to support and assist individuals, particularly those who need help managing healthcare information. The app aims to provide a secure, organised way to store and access essential medical data, helping users manage their health more effectively and ensuring privacy through robust security features.
 
 
 
